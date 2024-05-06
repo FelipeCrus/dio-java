@@ -6,18 +6,15 @@ public class SmartTv {
 
     public void ligar(){
         ligada=true;
-        if (ligada == true) {
             System.out.println("A TV esta ligada.");
         }
             
-        }
 
     public void desligar(){
-        ligada=false;
-        if (ligada == false) {
+        ligada = false;
             System.out.println("A TV esta desligada.");
         }
-    }
+    
     public void novoCanal(int novoCanal){
         canal = novoCanal;
         System.out.println("O canal atual e: " + novoCanal);
